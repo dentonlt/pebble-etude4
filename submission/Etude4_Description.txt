@@ -1,0 +1,15 @@
+Etude 4 is a minimal, balanced watchface for Pebble/Rebble.
+
+The main time header is displayed in 12h/24h format according to the user's system preferences.  The background and text colors are customizable. The bluetooth icon shows blue when connected, pale red when disconnected. When quiet time is activated, a mute icon is displayed. The status line provides the current battery charge, abbreviated day (MTWRFSU + day of month), and day's step count.
+
+Etude 4 and the E4 logo use fonts distributed under the SIL Open Fonts License (v1.1):
+* Montserrat Alternates Bold (Julieta Ulanovsky; https://github.com/JulietaUla/Montserrat)
+* Bitter ht Bold (Sol Matas; https://www.huertatipografica.com/en/fonts/bitter-ht)
+
+Source code is currently available on inquiry. Future plans include distribution of source code via github or dentonlt.com. 
+
+RELEASE NOTES
+
+0.1.0 - first release; for Pebble Time Steel (basalt, color)
+
+0.8.0 - second release: now also for the original Pebble (aplite, black and white) and Pebble Time Round (chalk); added quiet time handling/icon; text and background colors now customizable through the Pebble App.

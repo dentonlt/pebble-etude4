@@ -1,0 +1,62 @@
+{
+  "name": "WatchfaceEtude4",
+  "author": "dentonlt",
+  "version": "0.8.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "Etude 4",
+    "project-type": "native",
+    "uuid": "6d40206d-1bc1-49db-bbaf-e3dea5d3fbea",
+    "sdkVersion": "3",
+    "capabilities": [
+      "health",
+      "configurable"
+    ],
+    "enableMultiJS": true,
+    "messageKeys": [
+      "BackgroundColor",
+      "TimeTextColor",
+      "StatusTextColor",
+      "TimeTextColorAuto",
+      "StatusTextColorAuto"
+    ],
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_HEADING_TIME_42",
+          "characterRange": "[:0-9APM ]",
+          "file": "fonts/MontserratAlternates-Bold.ttf"
+        },
+        {
+          "type": "font",
+          "characterRange": "[0-9bluetoh ]",
+          "name": "FONT_BODY_TEXT_16",
+          "file": "fonts/Bitter-Bold.ttf"
+        },
+        {
+          "type": "png",
+          "menuIcon": true,
+          "name": "IMAGE_MENU_ICON",
+          "file": "icons/icon.png"
+        }
+      ]
+    },
+    "companyName": "dentonlt.com"
+  }
+}

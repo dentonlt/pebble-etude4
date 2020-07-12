@@ -1,0 +1,60 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Etude 4 Configuration"
+  },
+  {
+    "type": "section",
+    "items": [
+    {
+      "type": "heading",
+      "defaultValue": "Background Color"
+    },
+    {
+      "type": "color",
+      "messageKey": "BackgroundColor",
+      "defaultValue": "0x000000",
+      "allowGray": true,
+      "label": "Background Color"
+    },
+    {
+      "type": "heading",
+      "defaultValue": "Text Colors"
+    },
+    {
+      "type": "toggle",
+      "messageKey": "TimeTextColorAuto",
+      "defaultValue": true,
+      "label": "Auto-Select Time Text Color",
+      "description": "If on, let the watch select a legible color."
+    },
+    {
+      "type": "color",
+      "messageKey": "TimeTextColor",
+      "defaultValue": "0xFFFFFF",
+      "allowGray": true,
+      "label": "Time Text Color",
+      "description": "If Auto-Select is on, this color selection is ignored."
+    },
+    {
+      "type": "toggle",
+      "messageKey": "StatusTextColorAuto",
+      "defaultValue": true,
+      "label": "Auto-Select Status Text Color",
+      "description": "If on, let the watch select a legible color."
+    },
+    {
+      "type": "color",
+      "messageKey": "StatusTextColor",
+      "defaultValue": "0xFFFFFF",
+      "allowGray": true,
+      "label": "Status Text Color (ignored if auto)",
+      "description": "If Auto-Select is on, this color selection is ignored."
+    } 
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]
