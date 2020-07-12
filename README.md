@@ -2,7 +2,7 @@
 
 Etude4 is a minimalist watchface for the Pebble smartwatch. It suits all Pebbles.
 
-The full source code, including font and image resources, are posted above. This project is distributed under the GNU GPL version 3.
+The full source code, including font and image resources, are included here. This project is distributed under the GNU GPL version 3.
 
 ![](submission/ss_aplite_1.png) ![](submission/ss_basalt_1.png) ![](submission/ss_chalk_1.png)
 
